@@ -1,3 +1,3 @@
 This project is to detect grains at CT scans with a poor contrast.
 
-
+![alt text](https://github.com/Iammuratc/grainDetection/blob/master/result.png)
