@@ -14,12 +14,16 @@ In this project, I implemented a convolutional neural networks structure, called
 You may see more results of 3D U-Net I employed in this project under the folder 'data'. The images are cutouts from the consecutive CT scan images and their corresponding output. Also, you may find the **weights of the 3D U-Net** I used on the link; https://cloudstore.uni-ulm.de/apps/files/?dir=/Shared/unet_thesis_weights&fileid=12379221#
 
 
-![alt text](https://github.com/Iammuratc/grainDetection/blob/master/result.png)
+![result](https://github.com/Iammuratc/grainDetection/blob/master/result.png)
 
  # Installation
  I used Python3 (e.g. Keras) and MATLAB for this project. Before the installation, please make sure you have downloaded the weights on the link provided above.
  
 You can clone the repository by the command: 
-````git clone git@github.com:Iammuratc/grainDetection.git````
+```bash 
+git clone git@github.com:Iammuratc/grainDetection.git
+```
 You may test the code on the images under the folder 'data'
-````python main3D.py````
+```bash
+python main3D.py
+```
