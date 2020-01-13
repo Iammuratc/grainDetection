@@ -11,7 +11,7 @@ In this project, I implemented a convolutional neural networks structure, called
 
 * I am not allowed to share the source code due to copyrights, please see https://iopscience.iop.org/article/10.1088/0965-0393/23/6/065001 for the details of algorithm.
 
-You may see more results of 3D U-Net I employed in this project under the folder 'data'. The images are cutouts from the consecutive CT scan images and their corresponding output. Also, you may find the **weights of the 3D U-Net** I used on the link; https://cloudstore.uni-ulm.de/apps/files/?dir=/Shared/unet_thesis_weights&fileid=12379221#
+You may see more results of 3D U-Net I employed in this project in the folder 'data'. The images are cutouts from the consecutive CT scan images and their corresponding output. Also, you may find the **weights of the 3D U-Net** I used on the link; https://cloudstore.uni-ulm.de/apps/files/?dir=/Shared/unet_thesis_weights&fileid=12379221#
 
 
 ![result](https://github.com/Iammuratc/grainDetection/blob/master/result.png)
@@ -23,7 +23,7 @@ You can clone the repository by the command:
 ```bash 
 git clone git@github.com:Iammuratc/grainDetection.git
 ```
-You may test the code on the images under the folder 'data'
+You may test the code on the images in the folder 'data'
 ```bash
 python main3D.py
 ```
